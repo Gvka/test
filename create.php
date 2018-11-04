@@ -17,8 +17,6 @@ if(isset($_POST['from']) && isset($_POST['to']) && isset($_POST['date'])){
                 ":mem_no" => $id,
                 ":from" => $from,
                 ":to" => $to,
-                ":dt" => $dt,
-
         ) );
         if ($stmt) {
             header("location:index.php");
